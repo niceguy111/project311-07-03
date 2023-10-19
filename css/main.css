@@ -102,4 +102,10 @@ form {
     background-color: #04AA6D;
     color: white;
   }
+
+  .orange-ferret-featured-item
+  {max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  }
   
