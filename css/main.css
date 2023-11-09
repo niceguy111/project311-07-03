@@ -8,6 +8,7 @@ body {
 
 h1 {
     font-family: 'Lato', sans-serif; ;
+    text-align: center;
 }
 img {
     width:500 pix;
@@ -17,6 +18,7 @@ img {
 p {
     color: rgb(37, 34, 35);
     text-align: center;
+    font-size: 15px;
 }
 
 h2 { 
@@ -37,11 +39,16 @@ h3 {
 .pic1 { 
     border-style: groove;
     align-items: center;
+    image-orientation: center;
+    height: auto;
+    width: auto;
 }
 
 .divclass1 {
     text-align: center;
     align-items: center;
+    height:auto;
+    width: auto;
 }
 
 .divclass2{
@@ -52,9 +59,18 @@ h3 {
 .artistbio {
     text-align: center;
     text-emphasis-style: bold;
-    text-size-adjust: 100;
+    font-size: 45;
     text-decoration-color: #000000;
 }
+
+.myNumber {
+  text-align: center;
+}
+
+.button1 {
+  align-items: center;
+}
+
 form {
     border: 3px solid #f1f1f1;
     max-width: 400px;
@@ -162,8 +178,8 @@ form {
 
  /* caption text */
  .text {
-  color: #f2f2f2;
-  font-size: 12px;
+  color: #d61313;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -206,3 +222,55 @@ form {
   from { opacity: .4}
   to { opacity: 1}
  }
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+  background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+   background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  align-items: center;
+  }
+
+@media (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+}
+
+/* media query for desktop */
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(175, 171, 167);
+  }
+}
+
+@media (max-width:480px) {
+  .pic1 { max-width: 480;}
+}
