@@ -15,12 +15,12 @@ img {
 }
 
 p {
-    color: crimson;
+    color: rgb(37, 34, 35);
     text-align: center;
 }
 
 h2 { 
-    color: blueviolet;
+    color: rgb(8, 7, 8);
     text-align: center;
 }
 h3 {
@@ -43,6 +43,12 @@ h3 {
     text-align: center;
     align-items: center;
 }
+
+.divclass2{
+  text-align: center;
+  align-items: center;
+}
+
 .artistbio {
     text-align: center;
     text-emphasis-style: bold;
@@ -51,7 +57,7 @@ h3 {
 }
 form {
     border: 3px solid #f1f1f1;
-    max-width: 600px;
+    max-width: 400px;
     position: relative;
   margin: auto
   }
