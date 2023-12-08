@@ -1,7 +1,7 @@
 /* Place CSS styles here */
 
 body { 
-    color: hsl(0, 60%, 1%);
+    color: hsl(136, 75%, 25%);
     background-color:rgba(11, 135, 44, 0.917);
     font-family: 'Dosis', sans-serif;
 }
@@ -209,7 +209,7 @@ form {
  }
 
  .active, .dot:hover {
-  background-color: #717171;
+  background-color: #0cb45a;
  }
 
  /* fading animation */
